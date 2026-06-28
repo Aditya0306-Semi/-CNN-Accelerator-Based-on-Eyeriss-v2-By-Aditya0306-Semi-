@@ -6,7 +6,9 @@ This project is the first-place winner of the undergraduate project competition 
 - **Verilog Code**: Circuit design files used for FPGA implementations.
 - **Python Code**: Scripts for generating test data.
 - **Bitstream Files**: Compiled files for FPGA deployment.
-Research Paper and Reports: Comprehensive documentation detailing the research, design, and outcomes of the project.
+-**Research Paper and Reports**: Comprehensive documentation detailing the research, design, and outcomes of the project.
+## Current Project Status
+### FPGA Design Overview
 - **Open Source Design:**  
   This project currently provides an open-source FPGA design. It is important to note that this open-source project only offers the most basic prototype of the architecture. The ASIC design, while conceptually similar, involves some architectural differences and will not be open-sourced. For example:
   - The FPGA design does not support the Network-on-Chip (NoC) systolic array, which is implemented in the ASIC design.
