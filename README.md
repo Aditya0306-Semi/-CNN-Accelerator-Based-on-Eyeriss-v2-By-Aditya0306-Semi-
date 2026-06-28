@@ -109,8 +109,6 @@ This design ensures that data flow between components is smooth and efficient, e
 We have implemented and verified our accelerator on an FPGA platform (2x2 Cluster Groups) using the PYNQ-Z2 board. The implementation process involved synthesizing the Verilog code into a bitstream with Vivado and then programming it onto the PYNQ-Z2. For data transmission, we used the board’s PL-side external GPIOs to directly receive data from a PC.
 Additionally, we designed a UART protocol interface on the platform, allowing the PL side to directly receive data sent from the PC. The model demonstrated on the FPGA is LeNet-5, which is utilized for handwritten digit recognition. On the PC side, we developed a GUI panel in Python that allows users to input handwritten digits. After completing the input, the data is directly transmitted to the FPGA for inference, enhancing the overall interactivity and authenticity of the operational demonstration.
 
-### LeNet-5 demo (handwritten digit recognition)
-![Vivado Report](picture/FPGA_demo.png)
 
 
 ## Conclusion
